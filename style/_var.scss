@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color: #070707;
+}
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+}

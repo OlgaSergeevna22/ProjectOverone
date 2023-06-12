@@ -1,0 +1,47 @@
+.footer {
+    margin: 114px auto 123px;
+    &-text {
+        width: 250px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        margin: 20px auto 29px;
+    }
+    &-button {
+        display: block;
+        width: 180.5px;
+        height: 42px;
+        margin: 0 auto;
+        background-color: black;
+        border: 0;
+        border-radius: 35px;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #070707;
+            border: 1px solid black;
+        }
+    }
+    &-social {
+        display: flex;
+        justify-content: space-between;
+        margin: 86px auto 45px;
+        max-width: 342px;
+        width: 100%;
+    }
+    &-lasttext {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        font-weight: 500;
+        color: #828282;
+    }
+}

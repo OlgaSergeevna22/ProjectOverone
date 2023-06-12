@@ -1,0 +1,47 @@
+.main {
+    &-descrip {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 50px;
+    }
+    &-title {
+        margin: 0;
+        font-size: 47px;
+        font-weight: 700;
+        width: 123px;
+    }
+    &-text {
+        font-size: 18px;
+        width: 145px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    &-links {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+    &-link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #828282;
+        &-active {
+            color: black;
+        }
+    }
+    &-link:first-child::after {
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 2px;
+        background-color: black;
+        margin-top: 5px;
+    }
+    &-image {
+        width: 100%;
+    }
+    &-photo {
+        margin-bottom: 104px;
+    }
+}

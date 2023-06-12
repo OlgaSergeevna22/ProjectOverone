@@ -1,0 +1,28 @@
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 113px 0 96px;
+    &-title {
+        font-size: 34px;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        margin-bottom: 47px;
+    }
+    &-photo {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    &-link {
+        display: block;
+        margin-bottom: 99px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        font-weight: 500;
+        color: #070707;
+    }
+    &-link:last-child {
+        margin-bottom: 0;
+    }
+}

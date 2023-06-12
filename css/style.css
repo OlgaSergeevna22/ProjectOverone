@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("./fonts/Gilroy Bold"), local("Gilroy-Bold"), url("./fonts/Gilroy-Bold.woff2") format("woff2"), url("./fonts/Gilroy-Bold.woff") format("woff"), url("./fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("./fonts/Gilroy Medium"), local("Gilroy-Medium"), url("./fonts/Gilroy-Medium.woff2") format("woff2"), url("./fonts/Gilroy-Medium.woff") format("woff"), url("./fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.header {
+  margin-bottom: 40px;
+}
+
+.nav {
+  border-bottom: 1px solid #828282;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 31px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #828282;
+  font-weight: 700;
+}
+.nav-link:hover, .nav-link:active {
+  color: #070707;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Gilroy";
+  font-size: 18px;
+  color: #070707;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-descrip {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+.main-title {
+  margin: 0;
+  font-size: 47px;
+  font-weight: 700;
+  width: 123px;
+}
+.main-text {
+  font-size: 18px;
+  width: 145px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.main-links {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.main-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #828282;
+}
+.main-link-active {
+  color: black;
+}
+.main-link:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  margin-top: 5px;
+}
+.main-image {
+  width: 100%;
+}
+.main-photo {
+  margin-bottom: 104px;
+}
+
+.about {
+  background-color: #F6F6F6;
+  padding-bottom: 120px;
+}
+.about-title {
+  padding-top: 120px;
+}
+.about-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.skills-title {
+  padding-top: 91px;
+}
+.skills-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 500;
+  padding: 69px 0 83px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.cards-image {
+  display: block;
+  margin: 0 auto;
+}
+.cards-text {
+  width: 79px;
+  margin: 23px auto 41px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-align: center;
+  color: #828282;
+}
+.cards-elements {
+  align-self: flex-end;
+}
+
+.portfolio {
+  background-color: #F6F6F6;
+  padding: 113px 0 96px;
+}
+.portfolio-title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 47px;
+}
+.portfolio-photo {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.portfolio-link {
+  display: block;
+  margin-bottom: 99px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: 500;
+  color: #070707;
+}
+.portfolio-link:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  margin: 114px auto 123px;
+}
+.footer-text {
+  width: 250px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin: 20px auto 29px;
+}
+.footer-button {
+  display: block;
+  width: 180.5px;
+  height: 42px;
+  margin: 0 auto;
+  background-color: black;
+  border: 0;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.footer-button:hover {
+  background-color: #FFFFFF;
+  color: #070707;
+  border: 1px solid black;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  margin: 86px auto 45px;
+  max-width: 342px;
+  width: 100%;
+}
+.footer-lasttext {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: 500;
+  color: #828282;
+}/*# sourceMappingURL=style.css.map */
